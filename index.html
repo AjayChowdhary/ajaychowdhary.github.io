@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<title>AJAY CHOWDHARY</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3,.bgimg-4 {
+    opacity: 0.85;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('https://s3.ap-south-1.amazonaws.com/portpp/contact.jpg');
+    min-height: 100%;
+}
+
+.bgimg-2 {
+    background-image: url("https://s3.ap-south-1.amazonaws.com/portpp/projects.jpg");
+    min-height: 400px;
+}
+
+
+
+.bgimg-3 {
+    background-image: url("https://s3.ap-south-1.amazonaws.com/portpp/chess.jpg");
+    min-height: 400px;
+}
+
+
+/* Third image (Contact) */
+.bgimg-4 {
+    background-image: url("https://s3.ap-south-1.amazonaws.com/portpp/contact.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+#googleMap {
+    width: 100%;
+    height: 400px;
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%);
+}
+.item1{
+	opacity:0.8;
+}
+
+/* Turn off parallax scrolling for tablets and mobiles */
+@media only screen and (max-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+<body data-spy="scroll" >
+
+
+
+<nav class="w3-navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">AJAY CHOWDHARY</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#home">Home</a></li>
+        <li><a href="#about">ABOUT ME</a></li>
+		<li><a href="#projects">PROJECTS</a></li>
+		<li><a href="#por">PORS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-opacity w3-display-container" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-xlarge w3-black w3-xlarge w3-wide w3-animate-opacity " style="hieght:100% width:100%">AJAY CHOWDHARY</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT ME</h3>
+  <p class="w3-center">WELCOME TO MY HOME ON WORLD WIDE WEB!</p>
+  <p> I am a student, pursuing my Bachelors of Engineering (B.E.) in Electronics and Communication from <a href="http://www.nsit.ac.in/">Netaji Subhas Institute of Technology, New Delhi(N.S.I.T.) Delhi University </a> . I am a tech geek, programmer, android developer and a kickass aoe2 player. Also I have experience in A.W.S. I love tinkering and playing with technology, taking up new and challenging projects. I love to read about human psychology and its implementation. I believe in growth and development of every individual, this passion has led me in organizing several events, workshops and mentorship programs for the development of students some of which were a great success. I am an active member of IEEE, EVOLVE and in sports love skating, playing volleyball. </p>
+   
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-section">
+      <p><b>AJAY CHOWDHARY</b></p><br>
+      <img src="https://s3.ap-south-1.amazonaws.com/portpp/pp.jpg" class="w3-circle" style="opacity: 0.9" alt="Photo of Me">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-section">
+	<br><br>
+      <p>HI, Welcome to my website. Kindly scroll through website and check out my projects and PORs. Your advice and suggestions are always welcomed. If you have a new project idea specially in Java, C++ and Cloud, just ping me. I am always happy to contribute !!. My contact details are at the end of this page </p>  </div>
+  </div>
+</div>
+<br id="projects">
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container" >
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-light-grey w3-wide" >PROJECTS AND COMPETITIONS</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" >
+  <h3 class="w3-center">MY WORK</h3>
+  <p class="w3-center"><em>Here are some of my projects.</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    
+	<div class="w3-col m3" >
+        
+	<img id="attendance" src="https://s3.ap-south-1.amazonaws.com/portpp/img_p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    <label for="attendance" class="w3-hover-opacity">ATTENDANCE TRACKER</label><br>
+	<a href="">details</a>
+	</div>
+	
+
+    <div class="w3-col m3">
+      <img src="https://s3.ap-south-1.amazonaws.com/portpp/img_p1.jpg" style="width:100%" id="musicplayer" onclick="onClick(this)" class="w3-hover-opacity">
+    <label for="musicplayer" >MUSIC PLAYER</label><br>
+	<a href="">details</a>
+	</div>
+
+    <div class="w3-col m3">
+      <img src="https://s3.ap-south-1.amazonaws.com/portpp/powersupply.jpg" style="width:100%" id="power" onclick="onClick(this)" class="w3-hover-opacity">
+    <label for="power" >LINEAR POWER SUPPLY</label><br>
+	<a href="">details</a>
+	</div>
+
+    <div class="w3-col m3">
+      <img src="https://s3.ap-south-1.amazonaws.com/portpp/img_p1.jpg" style="width:100%" id="codep" onclick="onClick(this)" class="w3-hover-opacity">
+      <label for="codep" >CODE PRACTICE OSCILLATOR</label><br>
+	<a href="">details</a>
+	</div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="https://s3.ap-south-1.amazonaws.com/portpp/ESSYA.jpg" style="width:100%" id="SAVIOURKIT" onclick="onClick(this)" class="w3-hover-opacity">
+    <label for="SAVIOURKIT" >SAVIOURKIT</label><br>
+	<a href="">details</a>
+	</div>
+
+  </div>
+  
+
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-closebtn w3-hover-red w3-text-white w3-xxxlarge w3-container w3-display-topright">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" style="max-width:100%" >
+  </div>
+</div >
+<br id="por">
+<br>
+<br>
+<br >
+
+<br>
+<div>
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container"  >
+  <div class="w3-display-middle" >
+    <span class="w3-xxlarge w3-text-light-grey ">POSITION OF RESPONSIBILITY </span>
+		<span class="w3-xxlarge w3-text-light-grey ">& </span>
+		<span class="w3-xxlarge w3-text-light-grey ">CO-CURRICULARS</span>
+
+  </div>
+</div>
+
+
+<br>
+<br>
+
+<div id="myCarousel" class="carousel slide container " data-ride="carousel">
+    
+    
+    <div class="carousel-inner" role="listbox" >
+
+      <div class="item active">
+        <img  src="https://s3.ap-south-1.amazonaws.com/portpp/IEEENSIT.jpg" alt="VICE CHAIRPERSON" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>VICE CHAIRPERSON</h3>
+		  <h4><a href="http://ieeensit.org/">IEEE NSIT</a></h4>
+		      
+          <p>Leading a team of 25 executive committee members for organizing various technical and non technical events for development of students and members</p>
+        </div>
+      </div>
+
+      <div class="item item1">
+        <img src="https://s3.ap-south-1.amazonaws.com/portpp/hack.jpg" alt="SOFTWARE HACKATHON" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>SOFTWARE HACKATHON </h3>
+          <h4><a href="http://www.hack-nsit.in/"> HACK@NSIT</a></h4>
+		  <p>Organised Northern India’s largest student held hackathon with over 100 plus participants across India.</p>
+        </div>
+      </div>
+    
+      <div class="item item1">
+        <img src="https://s3.ap-south-1.amazonaws.com/portpp/WIE.jpg" alt="WIE" width="460" height="345">
+        <div class="carousel-caption">
+          <h3 ><a href="https://www.facebook.com/events/1025896124143596/">WIE</a></h3>
+		  <h4 >Women In Engineering Delhi Section</h4>
+          <p >Core member of a team that organized this event to Encourage Women in Engineering  and  appreciate their contribution in development of Science. </p>
+        </div>
+      </div>
+		
+      <div class="item item1">
+        <img src="https://s3.ap-south-1.amazonaws.com/portpp/innovision.jpg" alt="INNOVISION" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>INNOVISION ‘16 </h3>
+          <p>Organized 3 major events in the fest :	</p>
+		  <p><a href="https://www.facebook.com/events/966499316765584/">- Circuitron</a>        <a href="https://www.facebook.com/events/972892379466642/">- Decode in Analog<a>       <a href="https://www.facebook.com/events/247735588891683/">- Line Follower Event</a></p>
+        </div>
+      </div>
+		
+	<div class="item item1">
+        <img src="https://s3.ap-south-1.amazonaws.com/portpp/hardware.jpg" alt="HARDWARE HACKATHON" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>HARDWARE HACKATHON</h3>
+          <p>Core team member of an overnight prototype design event on theme “DAILY HACK” with 100+ participants.</p>
+        </div>
+      </div>
+      
+	 <div class="item item1">
+        <img src="https://s3.ap-south-1.amazonaws.com/portpp/AICSSYC.jpg" alt="AICSSYC" width="460" height="345">
+        <div class="carousel-caption">
+          <h3><a href="http://aicssyc.org/">AICSSYC</a></h3>
+		  <h4>All India IEEE Computer Society Student & Young Professional Congress</h4>
+          <p>Member of a team that organized All India Congress in IEEE Asia Pacific (R10) having a footfall of 500+ participants which include students, entrepreneurs, youth professional and senior executives across the world.</p>
+        </div>
+      </div>
+	 
+	 <div class="item item1">
+        <img src="https://s3.ap-south-1.amazonaws.com/portpp/skating.jpg" alt="SKATING" width="460" height="345">
+        <div class="carousel-caption">
+          <h3 style="color: black">ANNUAL NATIONAL Sports MEET KVS</h3>
+          <p style="color: black">Secured a bronze in All India Roller Skating and  2 golds in regional roller skating competition.</p>
+        </div>
+      </div>
+      	
+			
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+	
+  </div>
+<div data-ride="carousel">
+    <!-- Indicators -->
+	 <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="myCarousel">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      
+    </div>
+    <ul id="myCarousel" class=" carousel slide nav nav-pills nav-justified collapse" >
+      <li data-target="#myCarousel" data-slide-to="0"><a>VICE CHAIRPERSON</a></li>
+      <li data-target="#myCarousel" data-slide-to="1"><a>SOFTWARE HACKATHON</a></li>
+	  <li data-target="#myCarousel" data-slide-to="2"><a>WIE</a></li>
+      <li data-target="#myCarousel" data-slide-to="3"><a>INNOVISION</a></li>
+	  <li data-target="#myCarousel" data-slide-to="4"><a>HARDWARE HACKATHON</a></li>
+	  <li data-target="#myCarousel" data-slide-to="5"><a>AICSSYC</a></li>	  
+      <li data-target="#myCarousel" data-slide-to="6"><a>ROLLER SKATING</a></li>
+	</ul>
+   </div>
+  </div>
+  </div>
+<br>
+
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-4 w3-display-container" id="contact">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-light-grey w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64">
+  <h3 class="w3-center">LET'S GET IN TOUCH</h3>
+    
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <!-- Add Google Maps -->
+      <div id="googleMap" class="w3-round-large"></div>
+    </div>
+    <div class="w3-col m8 w3-container w3-section">
+      <div class="w3-large w3-margin-bottom">
+        <a><i class="fa fa-map-marker w3-hover-text-black" style="width:30px"></i> New Delhi, India</a><br>
+        <a href="https://www.linkedin.com/in/a15667125"><i class="fa fa-linkedin w3-hover-text-black" style="width:30px"></i> linkedin</a><br>
+        <a href="https://s3.ap-south-1.amazonaws.com/portpp/RESUME.pdf"><i class="fa fa-print w3-hover-text-black" style="width:30px" id="print_resume"></i> Resume</a><br>
+        <a><i class="fa fa-envelope w3-hover-text-black" style="width:30px"> </i> Email: archh1096@gmail.com</a><br>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+<!-- Add Google Maps -->
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+var myCenter = new google.maps.LatLng(28.609135, 77.035049);
+
+function initialize() {
+var mapProp = {
+  center: myCenter,
+  zoom: 12,
+  scrollwheel: false,
+  draggable: false,
+  mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker = new google.maps.Marker({
+  position: myCenter,
+});
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-navbar" + " w3-card-2" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
+    }
+}
+</script>
+
+</body>
+</html>
+
