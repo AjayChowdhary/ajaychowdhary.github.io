@@ -33,26 +33,26 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('https://s3.ap-south-1.amazonaws.com/portpp/contact.jpg');
+    background-image: url('on_an_island_by_tacosauceninja-db2qggs.jpg');
     min-height: 100%;
 }
 
 .bgimg-2 {
-    background-image: url("https://s3.ap-south-1.amazonaws.com/portpp/projects.jpg");
+    background-image: url("projects.jpg");
     min-height: 400px;
 }
 
 
 
 .bgimg-3 {
-    background-image: url("https://s3.ap-south-1.amazonaws.com/portpp/chess.jpg");
+    background-image: url("chess.jpg");
     min-height: 400px;
 }
 
 
 /* Third image (Contact) */
 .bgimg-4 {
-    background-image: url("https://s3.ap-south-1.amazonaws.com/portpp/contact.jpg");
+    background-image: url("contact.jpg");
     min-height: 400px;
 }
 
@@ -92,17 +92,24 @@ body, html {
       <a class="navbar-brand" href="#">AJAY CHOWDHARY</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#home">Home</a></li>
-        <li><a href="#about">ABOUT ME</a></li>
-		<li><a href="#projects">PROJECTS</a></li>
-		<li><a href="#por">PORS</a></li>
-        <li><a href="#contact">CONTACT</a></li>
+      <ul class="nav ">
+        <li class="active"><a href="#home" style="color:gray">Home</a></li>
+        <li><a href="#about" style="color:gray">ABOUT ME</a></li>
+		<li><a href="#projects" style="color:gray">PROJECTS</a></li>
+		<li><a href="#por" style="color:gray">PORS</a></li>
+        <li><a href="#contact" style="color:gray">CONTACT</a></li>
       </ul>
     </div>
   </div>
   </nav>
-
+	 <div class="w3-display-bottomright w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-opacity w3-display-container" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
@@ -114,12 +121,12 @@ body, html {
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h3 class="w3-center">ABOUT ME</h3>
   <p class="w3-center">WELCOME TO MY HOME ON WORLD WIDE WEB!</p>
-  <p> I am a student, pursuing my Bachelors of Engineering (B.E.) in Electronics and Communication from <a href="https://www.nsit.ac.in/">Netaji Subhas Institute of Technology, New Delhi(N.S.I.T.) Delhi University </a> . I am a tech geek, programmer, android developer and a kickass aoe2 player. Also I have experience in A.W.S. I love tinkering and playing with technology, taking up new and challenging projects. I love to read about human psychology and its implementation. I believe in growth and development of every individual, this passion has led me in organizing several events, workshops and mentorship programs for the development of students some of which were a great success. I am an active member of IEEE, EVOLVE and in sports love skating, playing volleyball. </p>
+  <p> I am a student, pursuing my Bachelors of Engineering (B.E.) in Electronics and Communication from <a href="https://www.nsit.ac.in/">Netaji Subhas Institute of Technology, New Delhi(N.S.I.T.) Delhi University </a> . I am a tech geek, programmer, android developer and a kickass aoe2 player. I love tinkering and playing with technology, taking up new and challenging projects. I love to read about human psychology and its implementation. I believe in growth and development of every individual, this passion has led me in organizing several events, workshops and mentorship programs for the development of students some of which were a great success.</p>
    
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-section">
       <p><b>AJAY CHOWDHARY</b></p><br>
-      <img src="https://s3.ap-south-1.amazonaws.com/portpp/pp.jpg" class="w3-circle" style="opacity: 0.9" alt="Photo of Me">
+      <img src="19619541.jpg" class="w3-circle" style="opacity: 0.9" alt="Photo of Me">
     </div>
 
     <!-- Hide this text on small devices -->
@@ -132,65 +139,96 @@ body, html {
 <!-- Second Parallax Image with Portfolio Text -->
 <div class="bgimg-2 w3-display-container" >
   <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-light-grey w3-wide" >PROJECTS AND COMPETITIONS</span>
+    <span class="w3-xxlarge w3-text-light-grey w3-wide" >PROJECTS </span>
   </div>
 </div>
-
-<!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64" >
-  <h3 class="w3-center">MY WORK</h3>
-  <p class="w3-center"><em>Here are some of my projects.</em></p><br>
-
-  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-  <div class="w3-row-padding w3-center">
+<br>
+<br>
+<!-- Team Section -->
+<div class="w3-container" style="padding:1px 1px" id="team">
+    <div class="w3-row-padding " style="margin-top:64px">
+    <div  class="w3-col l3 m6 w3-margin-bottom" >
+      <div class="w3-card-2">
+        <center><img src="IEEE.jpg"   width="150" height="150"></center>
+        <div class="w3-container">
+          <h3>IEEE-NSIT App</h3>
+          
+          <h5>IEEE-NSIT Official App :Created an Android platform for I.E.E.E. (NSIT) to connect 150+ members each year. The Application connects the user with the IEEE society for getting daily feeds, event updates, project description and Special Interest Groups update. The app registers itself in our online database using app token.</h5>
+          <p><button class="w3-button w3-light-grey w3-block"onclick="location.href='https://github.com/AjayChowdhary';"> View</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card-2">
+        <center><img src="IMG_20160820_165319_1.jpg" width="200" height="150"></center>
+        <div class="w3-container">
+          <h3>Health Kit</h3>
+          
+          <h5>A project based on IOT to check heart rate, body temperature etc in real time and send data to cloud machine.We used AWS EC2 machine,S3 container service. The data from circuit is uploaded using Arduino uno. The uploaded content is converted into JSON and is provided to the user.A webapp and an android app are made to keep track of health parameters and notify and online consult doctor through chat forum if found unfit.</h5>
+          <p><button class="w3-button w3-light-grey w3-block" onclick="location.href='https://github.com/AjayChowdhary';"> View</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card-2">
+        <center><img src="img_p1.jpg" alt="Mike" width="200" height="150"></center>
+        <div class="w3-container">
+          <h3>Attendance tracker</h3>
+          
+          <h5> This App is made to keep a track of attendance/ event. The produces a notification in the main activity of the user so that user can mark their review on that event. A proper database is maintained for the user to check out the past attendance. This app targets every college individual who wants to keep track of their attendance in a proper manner.</h5>
+          <p><button class="w3-button w3-light-grey w3-block" onclick="location.href='https://github.com/AjayChowdhary';">View</button></p>
+        </div>
+      </div>
+    </div>
+	<div class="w3-col l3 m6 w3-margin-bottom" >
+      <div class="w3-card-2">
+        <center><img src="img_p1.jpg" alt="Mike" width="200" height="150"></center>
+        <div class="w3-container">
+          <h3>Music player</h3>
+          
+          <h5>An Android Application that intelligently filters the mp3 files in your device memory and plays it for the user. The App provides a great UI with the use of Viewpager and a sleep timer feature that enables the user to decide the pausing or stopping/pausing time for the app.</h5>
+          <p><button onclick="location.href='https://github.com/AjayChowdhary';"class="w3-button w3-light-grey w3-block" > View</button></p>
+        </div>
+      </div>
+    </div>
     
-	<div class="w3-col m3" >
-        
-	<img id="attendance" src="https://s3.ap-south-1.amazonaws.com/portpp/img_p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-    <label for="attendance" class="w3-hover-opacity">ATTENDANCE TRACKER</label><br>
-	<a href="">details</a>
-	</div>
-	
-
-    <div class="w3-col m3">
-      <img src="https://s3.ap-south-1.amazonaws.com/portpp/img_p1.jpg" style="width:100%" id="musicplayer" onclick="onClick(this)" class="w3-hover-opacity">
-    <label for="musicplayer" >MUSIC PLAYER</label><br>
-	<a href="">details</a>
-	</div>
-
-    <div class="w3-col m3">
-      <img src="https://s3.ap-south-1.amazonaws.com/portpp/powersupply.jpg" style="width:100%" id="power" onclick="onClick(this)" class="w3-hover-opacity">
-    <label for="power" >LINEAR POWER SUPPLY</label><br>
-	<a href="">details</a>
-	</div>
-
-    <div class="w3-col m3">
-      <img src="https://s3.ap-south-1.amazonaws.com/portpp/img_p1.jpg" style="width:100%" id="codep" onclick="onClick(this)" class="w3-hover-opacity">
-      <label for="codep" >CODE PRACTICE OSCILLATOR</label><br>
-	<a href="">details</a>
-	</div>
-  </div>
-
-  <div class="w3-row-padding w3-center w3-section">
-    <div class="w3-col m3">
-      <img src="https://s3.ap-south-1.amazonaws.com/portpp/ESSYA.jpg" style="width:100%" id="SAVIOURKIT" onclick="onClick(this)" class="w3-hover-opacity">
-    <label for="SAVIOURKIT" >SAVIOURKIT</label><br>
-	<a href="">details</a>
-	</div>
-
-  </div>
-  
+    
+    
+</div>
 
 </div>
 
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-closebtn w3-hover-red w3-text-white w3-xxxlarge w3-container w3-display-topright">×</span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img id="img01" style="max-width:100%" >
-  </div>
-</div >
-<br id="por">
+<div class="w3-container" style="padding:1px 6px" id="team">
+    <div class="w3-row-padding " style="margin-top:64px">
+
+<div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card-2">
+        <center><img src="img_p1.jpg" alt="Dan" width="200" height="150"></center>
+        <div class="w3-container">
+          <h3>Code Practice Oscillator</h3>
+          <p class="w3-opacity">NOV 2015</p>
+          <h5>A device to send and receive morse code. ​ The project uses 555 timer IC configured as an astable mode which is a simple way to practice the sending and receiving of Morse Code.</h5>
+          <p><button onclick="location.href='https://github.com/AjayChowdhary';"class="w3-button w3-light-grey w3-block"> View</button></p>
+        </div>
+      </div>
+    </div>
+  
+	<div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card-2">
+        <center><img src="powersupply.jpg" alt="Mike" width="200" height="150"></center>
+        <div class="w3-container">
+          <h3>Power Supply</h3>
+          <p class="w3-opacity">
+            Dec 2015 </p>
+          <h5>Made a Variable Power Supply with short circuit protection which generated both positive and negative volatages ranging from 1.5V to 37V and a maximum current of 3A.Made for use in other projects. Board is fabricated using toner transferred method.</h5>
+          <p><button onclick="location.href='https://github.com/AjayChowdhary';" class="w3-button w3-light-grey w3-block"> View</button></p>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+
+
 <br>
 <br>
 <br >
@@ -211,13 +249,14 @@ body, html {
 <br>
 <br>
 
+
 <div id="myCarousel" class="carousel slide container " data-ride="carousel">
     
     
     <div class="carousel-inner" role="listbox" >
 
       <div class="item active">
-        <img  src="https://s3.ap-south-1.amazonaws.com/portpp/IEEENSIT.jpg" alt="VICE CHAIRPERSON" width="460" height="345">
+        <img  src="IEEENSIT.jpg" alt="VICE CHAIRPERSON" width="460" height="345">
         <div class="carousel-caption">
           <h3>VICE CHAIRPERSON</h3>
 		  <h4><a href="https://ieeensit.org/">IEEE NSIT</a></h4>
@@ -227,7 +266,7 @@ body, html {
       </div>
 
       <div class="item item1">
-        <img src="https://s3.ap-south-1.amazonaws.com/portpp/hack.jpg" alt="SOFTWARE HACKATHON" width="460" height="345">
+        <img src="hack.jpg" alt="SOFTWARE HACKATHON" width="460" height="345">
         <div class="carousel-caption">
           <h3>SOFTWARE HACKATHON </h3>
           <h4><a href="https://www.hack-nsit.in/"> HACK@NSIT</a></h4>
@@ -236,7 +275,7 @@ body, html {
       </div>
     
       <div class="item item1">
-        <img src="https://s3.ap-south-1.amazonaws.com/portpp/WIE.jpg" alt="WIE" width="460" height="345">
+        <img src="WIE.jpg" alt="WIE" width="460" height="345">
         <div class="carousel-caption">
           <h3 ><a href="https://www.facebook.com/events/1025896124143596/">WIE</a></h3>
 		  <h4 >Women In Engineering Delhi Section</h4>
@@ -245,7 +284,7 @@ body, html {
       </div>
 		
       <div class="item item1">
-        <img src="https://s3.ap-south-1.amazonaws.com/portpp/innovision.jpg" alt="INNOVISION" width="460" height="345">
+        <img src="innovision.jpg" alt="INNOVISION" width="460" height="345">
         <div class="carousel-caption">
           <h3>INNOVISION ‘16 </h3>
           <p>Organized 3 major events in the fest :	</p>
@@ -254,7 +293,7 @@ body, html {
       </div>
 		
 	<div class="item item1">
-        <img src="https://s3.ap-south-1.amazonaws.com/portpp/hardware.jpg" alt="HARDWARE HACKATHON" width="460" height="345">
+        <img src="hardware.jpg" alt="HARDWARE HACKATHON" width="460" height="345">
         <div class="carousel-caption">
           <h3>HARDWARE HACKATHON</h3>
           <p>Core team member of an overnight prototype design event on theme “DAILY HACK” with 100+ participants.</p>
@@ -262,7 +301,7 @@ body, html {
       </div>
       
 	 <div class="item item1">
-        <img src="https://s3.ap-south-1.amazonaws.com/portpp/AICSSYC.jpg" alt="AICSSYC" width="460" height="345">
+        <img src="AICSSYC.jpg" alt="AICSSYC" width="460" height="345">
         <div class="carousel-caption">
           <h3><a href="https://aicssyc.org/">AICSSYC</a></h3>
 		  <h4>All India IEEE Computer Society Student & Young Professional Congress</h4>
@@ -271,7 +310,7 @@ body, html {
       </div>
 	 
 	 <div class="item item1">
-        <img src="https://s3.ap-south-1.amazonaws.com/portpp/skating.jpg" alt="SKATING" width="460" height="345">
+        <img src="skating.jpg" alt="SKATING" width="460" height="345">
         <div class="carousel-caption">
           <h3 style="color: black">ANNUAL NATIONAL Sports MEET KVS</h3>
           <p style="color: black">Secured a bronze in All India Roller Skating and  2 golds in regional roller skating competition.</p>
@@ -335,7 +374,7 @@ body, html {
       <div class="w3-large w3-margin-bottom">
         <a><i class="fa fa-map-marker w3-hover-text-black" style="width:30px"></i> New Delhi, India</a><br>
         <a href="https://www.linkedin.com/in/a15667125"><i class="fa fa-linkedin w3-hover-text-black" style="width:30px"></i> linkedin</a><br>
-        <a href="https://s3.ap-south-1.amazonaws.com/portpp/RESUME.pdf"><i class="fa fa-print w3-hover-text-black" style="width:30px" id="print_resume"></i> Resume</a><br>
+        <a href="RESUME.pdf"><i class="fa fa-print w3-hover-text-black" style="width:30px" id="print_resume"></i> Resume</a><br>
         <a><i class="fa fa-envelope w3-hover-text-black" style="width:30px"> </i> Email: archh1096@gmail.com</a><br>
       </div>
       
@@ -344,31 +383,7 @@ body, html {
 </div>
 
 
-<!-- Add Google Maps -->
-<script src="https://maps.googleapis.com/maps/api/js"></script>
 <script>
-var myCenter = new google.maps.LatLng(28.609135, 77.035049);
-
-function initialize() {
-var mapProp = {
-  center: myCenter,
-  zoom: 12,
-  scrollwheel: false,
-  draggable: false,
-  mapTypeId: google.maps.MapTypeId.ROADMAP
-  };
-
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-
-var marker = new google.maps.Marker({
-  position: myCenter,
-});
-
-marker.setMap(map);
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
-
 // Modal Image Gallery
 function onClick(element) {
   document.getElementById("img01").src = element.src;
@@ -380,7 +395,7 @@ window.onscroll = function() {myFunction()};
 function myFunction() {
     var navbar = document.getElementById("myNavbar");
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-navbar" + " w3-card-2" + " w3-animate-top" + " w3-white";
+        navbar.className = "w3-navbar";
     } else {
         navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
     }
